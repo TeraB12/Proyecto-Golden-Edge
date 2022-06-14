@@ -9,12 +9,16 @@
   <title>Golden Edge Nosotros</title>
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="shortcut icon" href="../assets/favicon/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <!--Inicio del Body-->
 <body class="grid-container2">
   <!--Inicio del Header-->
+  <div data-aos="zoom-out" data-aos-duration="350">
   <header class="header2">
+    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50">
       <div class="wrapper">
         <nav>
           <input type="checkbox" id="show-search">
@@ -144,11 +148,13 @@
       <div>
         <a href="./login.html"><img class="header__login" src="../assets/logos/iniciar-sesion.png""></a>
       </div>
+      </div>
       <!--Final Carrito y Cuenta-->
       <!--Final Menu Header-->
       <div class=" dummy-text">
         <h1>GOLDEN EDGE</h1>
         <h2>ENVÍOS A TODO EL PAIS</h2>
+    </div>
     </div>
   </header>
   <!--Whatsapp flotante-->
@@ -246,6 +252,9 @@
     </div>
  </footer>
   <!--Final del Footer-->
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
